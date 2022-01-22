@@ -1,8 +1,8 @@
-discord.py
+discrap.py
 ==========
 
-.. image:: https://discord.com/api/guilds/336642139381301249/embed.png
-   :target: https://discord.gg/r3sSKJJ
+.. image:: https://discord.com/api/guilds/934290510598799361/embed.png
+   :target: https://discord.gg/gtjuDvZ5QV
    :alt: Discord server invite
 .. image:: https://img.shields.io/pypi/v/discord.py.svg
    :target: https://pypi.python.org/pypi/discord.py
@@ -13,7 +13,7 @@ discord.py
 
 A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
 
-The Future of discord.py
+The Future of disnake.py
 --------------------------
 
 Please read the `gist <https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1>`_ for the future of this project. It's been a good one.
@@ -97,8 +97,8 @@ Bot Example
 
 .. code:: py
 
-    import discord
-    from discord.ext import commands
+    import discrap
+    from discrap.ext import commands
 
     bot = commands.Bot(command_prefix='>')
 
@@ -114,5 +114,5 @@ Links
 ------
 
 - `Documentation <https://discordpy.readthedocs.io/en/latest/index.html>`_
-- `Official Discord Server <https://discord.gg/r3sSKJJ>`_
+- `Official Discord Server <https://discord.gg/gtjuDvZ5QV>`_
 - `Discord API <https://discord.gg/discord-api>`_

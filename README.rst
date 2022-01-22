@@ -35,10 +35,10 @@ To install the library without full voice support, you can just run the followin
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U discord.py
+    python3 -m pip install -U discrap.py
 
     # Windows
-    py -3 -m pip install -U discord.py
+    py -3 -m pip install -U discrap.py
 
 Otherwise to get voice support you should run the following command:
 
@@ -55,8 +55,8 @@ To install the development version, do the following:
 
 .. code:: sh
 
-    $ git clone https://github.com/Rapptz/discord.py
-    $ cd discord.py
+    $ git clone https://github.com/Rapptz/discrap.py
+    $ cd discrap.py
     $ python3 -m pip install -U .[voice]
 
 
@@ -75,7 +75,7 @@ Quick Example
 
 .. code:: py
 
-    import discord
+    import discrap
 
     class MyClient(discord.Client):
         async def on_ready(self):

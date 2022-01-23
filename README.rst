@@ -13,11 +13,6 @@ discrap.py
 
 A modern, easy to use, feature-rich, and async ready API wrapper for Discord written in Python.
 
-The Future of disnake.py
---------------------------
-
-Please read the `gist <https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1>`_ for the future of this project. It's been a good one.
-
 Key Features
 -------------
 
@@ -45,10 +40,10 @@ Otherwise to get voice support you should run the following command:
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U "discord.py[voice]"
+    python3 -m pip install -U "discrap.py[voice]"
 
     # Windows
-    py -3 -m pip install -U discord.py[voice]
+    py -3 -m pip install -U discrap.py[voice]
 
 
 To install the development version, do the following:
@@ -77,7 +72,7 @@ Quick Example
 
     import discrap
 
-    class MyClient(discord.Client):
+    class MyClient(discrap.Client):
         async def on_ready(self):
             print('Logged on as', self.user)
 
@@ -113,6 +108,6 @@ You can find more examples in the examples directory.
 Links
 ------
 
-- `Documentation <https://discordpy.readthedocs.io/en/latest/index.html>`_
+- `Documentation <https://discrappy.readthedocs.io/en/latest/index.html>`_
 - `Official Discord Server <https://discord.gg/gtjuDvZ5QV>`_
 - `Discord API <https://discord.gg/discord-api>`_

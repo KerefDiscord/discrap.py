@@ -1,4 +1,4 @@
-discrap.py
+kerefcord.py
 ==========
 
 .. image:: https://discord.com/api/guilds/934290510598799361/embed.png
@@ -30,28 +30,28 @@ To install the library without full voice support, you can just run the followin
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U discrap.py
+    python3 -m pip install -U kerefcord.py
 
     # Windows
-    py -3 -m pip install -U discrap.py
+    py -3 -m pip install -U kerefcord.py
 
 Otherwise to get voice support you should run the following command:
 
 .. code:: sh
 
     # Linux/macOS
-    python3 -m pip install -U "discrap.py[voice]"
+    python3 -m pip install -U "kerefcord.py[voice]"
 
     # Windows
-    py -3 -m pip install -U discrap.py[voice]
+    py -3 -m pip install -U kerefcord.py[voice]
 
 
 To install the development version, do the following:
 
 .. code:: sh
 
-    $ git clone https://github.com/Rapptz/discrap.py
-    $ cd discrap.py
+    $ git clone https://github.com/KerefDiscord/kerefcord.py
+    $ cd kerefcord.py
     $ python3 -m pip install -U .[voice]
 
 
@@ -70,7 +70,7 @@ Quick Example
 
 .. code:: py
 
-    import discrap
+    import kerefcord
 
     class MyClient(discrap.Client):
         async def on_ready(self):
@@ -92,8 +92,8 @@ Bot Example
 
 .. code:: py
 
-    import discrap
-    from discrap.ext import commands
+    import kerefcord
+    from kerefcord.ext import commands
 
     bot = commands.Bot(command_prefix='>')
 
@@ -108,6 +108,6 @@ You can find more examples in the examples directory.
 Links
 ------
 
-- `Documentation <https://discrappy.readthedocs.io/en/latest/index.html>`_
+- `Documentation <https://kerefcord.readthedocs.io/en/latest/index.html>`_
 - `Official Discord Server <https://discord.gg/gtjuDvZ5QV>`_
 - `Discord API <https://discord.gg/discord-api>`_
